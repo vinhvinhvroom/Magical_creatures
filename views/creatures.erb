@@ -1,0 +1,7 @@
+<ul>
+  <% @creatures_array.each do |creature| %>
+    <li>
+      <a href = "/creatures/<%= creature.name%>"><%= creature.name%></a><br />
+    </li>
+  <% end %>
+</ul>
